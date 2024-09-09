@@ -61,7 +61,7 @@
 
 - name: Install software mssql-tools (package)
   ansible.builtin.package:
-    name: mssql-tools
+    name: mssql-tools18
     state: present
   environment:
     ACCEPT_EULA: Y
